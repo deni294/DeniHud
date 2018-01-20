@@ -818,7 +818,7 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"0"
-		"wide"					"853"
+		"wide"					"f0"
 		"tall"					"480"
 		"zpos"					"4"
 	}
