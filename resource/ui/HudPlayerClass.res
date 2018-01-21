@@ -96,10 +96,10 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"0"
-		"ypos"			"r200"
+		"xpos"			"10" // was 0
+		"ypos"			"r180" // was r200
 		"zpos"			"2"		
-		"wide"			"100"
+		"wide"			"85" // was 100
 		"tall"			"200"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -107,7 +107,7 @@
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"7"
+		"fov"			"2" // was 7
 		"allow_rot"		"1"
 				
 		"model"
@@ -119,7 +119,7 @@
 			"angles_z" "0"
 			"origin_x" "200"
 			"origin_y" "0"
-			"origin_z" "-60"
+			"origin_z" "-50"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
@@ -191,7 +191,7 @@
 				"angles_x"		"-15"
 				"angles_y"		"165"
 				"angles_z"		"0"
-				"origin_x"		"135"
+				"origin_x"		"145"
 				"origin_y"		"1"
 				"origin_z"		"-75"
 			}
@@ -201,7 +201,7 @@
 				"angles_x"		"-7"
 				"angles_y"		"170"
 				"angles_z"		"0"
-				"origin_x"		"135"
+				"origin_x"		"145"
 				"origin_y"		"1"
 				"origin_z"		"-90"
 			}
@@ -221,18 +221,18 @@
 				"angles_x"		"-15"
 				"angles_y"		"175"
 				"angles_z"		"0"
-				"origin_x"		"135"
+				"origin_x"		"145"
 				"origin_y"		"-3"
 				"origin_z"		"-85"
 			}
 			"Medic"
 			{
 				"fov"			"20"
-				"angles_x"		"-7"
+				"angles_x"		"-12"
 				"angles_y"		"165"
 				"angles_z"		"0"
-				"origin_x"		"135"
-				"origin_y"		"1"
+				"origin_x"		"145"
+				"origin_y"		"-6"
 				"origin_z"		"-90"
 			}
 			"Heavy"
@@ -241,19 +241,19 @@
 				"angles_x"		"-15"
 				"angles_y"		"175"
 				"angles_z"		"0"
-				"origin_x"		"135"
-				"origin_y"		"6"
-				"origin_z"		"-95"
+				"origin_x"		"145" // was 135
+				"origin_y"		"-7"   // was 6   
+				"origin_z"		"-95" // was -95
 			}
 			"Pyro"
 			{
 				"fov"			"20"
 				"angles_x"		"0"
-				"angles_y"		"170"
+				"angles_y"		"168" // was 170
 				"angles_z"		"0"
-				"origin_x"		"155"
-				"origin_y"		"-5"
-				"origin_z"		"-80"
+				"origin_x"		"155" // was 155
+				"origin_y"		"-10"  // was -5
+				"origin_z"		"-80" // was -80
 			}
 			"Spy"
 			{
@@ -261,7 +261,7 @@
 				"angles_x"		"-7"
 				"angles_y"		"165"
 				"angles_z"		"0"
-				"origin_x"		"135"
+				"origin_x"		"150"
 				"origin_y"		"1"
 				"origin_z"		"-90"
 			}

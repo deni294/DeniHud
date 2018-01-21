@@ -122,7 +122,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LowAmmo"
-		"font"			"DeniProxNovaBoldOutline14"
+		"font"			"DeniProxNovaBold14"
 		"fgcolor"		"0 0 0 0"
 		"xpos"			"0"
 		"ypos"			"-7"
@@ -134,5 +134,21 @@
 		"textAlignment"	"west"		
 		"labelText"		"LOW AMMO"
 		
-	}									
+	}
+	"LowAmmoSha"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"LowAmmoSha"
+		"font"			"DeniProxNovaBold14"
+		"xpos"			"1"
+		"ypos"			"-6"
+		"zpos"			"5"
+		"wide"			"300"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"west"		
+		"labelText"		"LOW AMMO"
+		"fgcolor"		"0 0 0 0"
+	}										
 }

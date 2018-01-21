@@ -138,7 +138,23 @@
 		"enabled"		"1"
 		"labelText"		"LOW HEALTH"
 		"textAlignment"	"west"	
-		"font"			"DeniProxNovaBoldOutline14"
+		"font"			"DeniProxNovaBold14"
+		"fgcolor"		"0 0 0 0"
+	}
+	"LowHpLabelSha"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"LowHpLabelSha"
+		"xpos"			"1"
+		"ypos"			"-19"
+		"zpos"			"5"
+		"wide"			"200"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"LOW HEALTH"
+		"textAlignment"	"west"	
+		"font"			"DeniProxNovaBold14"
 		"fgcolor"		"0 0 0 0"
 	}
 

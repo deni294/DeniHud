@@ -54,6 +54,7 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 {	
 	Animate  LowHpLabel						fgcolor		"DeniDying"	Linear 0.001 0.002
+	Animate  LowHpLabelSha					fgcolor		"DeniBlack"	Linear 0.001 0.002
 	
 	Animate	TargetHealthBG			BgColor		"0 0 0 255"	       Accel 0.0 0.0
     Animate	TargetHealthBG			Alpha		"255"		   Accel 0.0 0.0
@@ -82,7 +83,7 @@ event HudHealthDyingPulseLoop
 event HudHealthDyingPulseStop
 {
 	Animate  LowHpLabel						fgcolor		"0 0 0 0"		Linear 0.0001 0.01
-	
+	Animate  LowHpLabelSha						fgcolor	"0 0 0 0"		Linear 0.0001 0.01
 
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
@@ -104,7 +105,7 @@ event HudHealthDyingPulseStop
 event HudLowAmmoPulse
 {	
 	Animate  LowAmmo					fgcolor		"DeniLowAmmo"		Linear 0.001 0.002
-	
+	Animate  LowAmmoSha					fgcolor		"DeniBlack"		Linear 0.001 0.002
 	
 
 	
@@ -120,6 +121,7 @@ event HudLowAmmoPulseLoop
 event HudLowAmmoPulseStop
 {
 	Animate  LowAmmo						fgcolor		"0 0 0 0"		Linear 0.0001 0.01
+	Animate  LowAmmoSha						fgcolor		"0 0 0 0"		Linear 0.0001 0.01
 
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
