@@ -70,7 +70,7 @@ Scheme
 				"weight"		"800"
 			}
 
-			
+
 		}
 		"DefaultUnderline"
 		{
@@ -413,7 +413,7 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}	
+		}
 		"HudFontMediumBigBold"
 		{
 			"1"
@@ -424,7 +424,7 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}		
+		}
 		"HudFontMedium"
 		{
 			"1"
@@ -507,7 +507,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}	
+		}
 		"HudFontSmallishBold"
 		{
 			"1"
@@ -871,7 +871,7 @@ Scheme
 				"weight"	"200"
 				"outline"	"1"
 			}
-		}		
+		}
 		TFTypeDeath
 		{
 			"1"
@@ -883,7 +883,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		Icons
 		{
 			"1"
@@ -1039,7 +1039,7 @@ Scheme
 				"weight"	"500"
 			}
 		}
-		
+
 		"GoalText"
 		{
 			"1"
@@ -1052,8 +1052,8 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
-		
+		}
+
 		"ChalkboardTitle"
 		{
 			"1"
@@ -1062,7 +1062,7 @@ Scheme
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
-				"antialias"		"1" 
+				"antialias"		"1"
 				"custom"		"1" [$OSX]
 				"weight"		"500"
 				"weight_lodef"	"800"
@@ -1368,7 +1368,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+
 		"TargetID"
 		{
 			"1"
@@ -1510,8 +1510,8 @@ Scheme
 				"weight"		"300"
 				"antialias"		"1"
 			}
-		}	
-		
+		}
+
 		MenuSmallFont
 		{
 			"1"
@@ -1524,7 +1524,7 @@ Scheme
 				"weight_lodef"	"600"
 				"antialias"		"1"
 			}
-		}			
+		}
 		CapPlayerFont
 		{
 			"1"
@@ -1562,7 +1562,7 @@ Scheme
 				"additive"	"1"
 				"antialias" 	"1"
 			}
-		}		
+		}
 		TFFontMedium
 		{
 			"1"
@@ -1575,8 +1575,8 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
-		
+		}
+
 		InstructionalText
 		{
 			"1"
@@ -1588,8 +1588,8 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
-		
+		}
+
 		MatchmakingDialogTitle
 		{
 			"1"
@@ -1637,7 +1637,7 @@ Scheme
 				"tall"		"18"
 				"weight"	"900"
 			}
-		}		
+		}
 		MatchmakingDialogMenuMedium
 		{
 			"1"
@@ -1685,7 +1685,7 @@ Scheme
 				"weight"	"900"
 			}
 		}
-		
+
 		"TeamMenuBold"
 		{
 			"1"
@@ -1707,7 +1707,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
+		}
 		"IntroMenuCaption"
 		{
 			"1"
@@ -1718,7 +1718,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}			
+		}
 		"AchievementNotification"
 		{
 			"1"
@@ -1793,7 +1793,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
+
 		"ItemFontNameSmallest"
 		{
 			"1"
@@ -1880,7 +1880,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}	
+		}
 		"ItemFontAttribLarger"
 		{
 			"1"
@@ -1892,7 +1892,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"AchievementTracker_Name"
 		{
 			"1"
@@ -2032,7 +2032,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
+
 		"QuestLargeText"
 		{
 			"1"
@@ -2164,7 +2164,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+
 		"QuestLargeText_Merasmus"
 		{
 			"1"
@@ -2188,7 +2188,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+
 		"AdFont_AdText"
 		{
 			"1"
@@ -2235,7 +2235,7 @@ Scheme
 				"italic"	"1"
 			}
 		}
-		
+
 		//
 		//////////////////// REPLAY FONTS //////////////////////////////
 		//
@@ -2408,7 +2408,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+
 		//
 		//////////////////// ECON FONTS //////////////////////////////
 		//
@@ -2557,12 +2557,12 @@ Scheme
 				"antialias" "1"
 			}
 		}
-	
 
-	
+
+
 
 		//************************* Start Deni Fonts
-		
+
 		"DeniProxNova4"
 		{
 			"1"
@@ -3737,7 +3737,7 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 				"outline"	"1"
-			}	
+			}
 		}
 		"DeniProxNovaOutline7"
 		{
@@ -4940,12 +4940,614 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
-				"outline"	"1"	
+				"outline"	"1"
 			}
 		}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		"FogCrossHair4"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"4"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair5"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"5"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair6"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"6"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair7"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"7"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair8"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"8"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair9"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"9"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair10"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"10"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+
+		}
+		"FogCrossHair11"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"11"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair12"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"12"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair13"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"13"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair14"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair15"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"15"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair16"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"16"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair17"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"17"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair18"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"18"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair19"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"19"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair20"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"20"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair21"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"21"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+
+			}
+		}
+		"FogCrossHair22"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"22"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+
+			}
+		}
+		"FogCrossHair23"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"23"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+
+			}
+		}
+		"FogCrossHair24"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"24"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+
+			}
+
+		}
+		"FogCrossHair25"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"25"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+
+			}
+		}
+		"FogCrossHair26"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"26"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+
+			}
+		}
+		"FogCrossHair27"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"27"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair28"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"28"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair29"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"29"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair30"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"30"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair31"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"31"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair32"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"32"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair33"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"33"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair34"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"34"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair35"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"35"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair36"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"36"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair37"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"37"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair38"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"38"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair39"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"39"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair40"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"40"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair41"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"41"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair42"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"42"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair43"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"43"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair44"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"44"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair45"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"45"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair46"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"46"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair47"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"47"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair48"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"48"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair49"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"49"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair50"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"50"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair51"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"51"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair52"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"52"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair53"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"53"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FogCrossHair54"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"54"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 
 
 
