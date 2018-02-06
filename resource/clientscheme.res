@@ -19,7 +19,7 @@ Scheme
 	}
 
 
-	
+
 
 
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
@@ -45,7 +45,7 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"4" 
+		"4"
 		{
 			"font" "resource/TF2Secondary.ttf"
 			"name" "TF2 Secondary"
@@ -58,7 +58,7 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"5" 
+		"5"
 		{
 			"font" "resource/TF2Professor.ttf"
 			"name" "TF2 Professor"
@@ -70,8 +70,8 @@ Scheme
 			{
 				"range" "0x0000 0x00FF"
 			}
-		}	
-		"6" 
+		}
+		"6"
 		{
 			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
@@ -87,17 +87,22 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}			
+		}
 		//DeniCustom Fonts
-		"7" 
+		"7"
 		{
 			"font" "resource/fonts/ProximaNovaRegular.ttf"
 			"name" "ProximaNova-Regular"
-		}	
-		"8" 
+		}
+		"8"
 		{
 			"font" "resource/fonts/ProximaNovaBold.otf"
 			"name" "ProximaNova-Bold"
-		}	
+		}
+		"9"
+		{
+			"font" "resource/fonts/crosshairs.ttf"
+			"name" "Crosshairs"
+		}
 	}
 }

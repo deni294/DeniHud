@@ -67,7 +67,7 @@
 			"proportionaltoparent"	"1"
 			"BgColor_override"	"DeniBlack"
 		}
-		
+
 
 		"OuterShadow"
 		{
@@ -113,11 +113,41 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"image_drawcolor"	"DeniWhite"
-			"image_armedcolor"	"DeniWhite"
+			"image_drawcolor"	"235 245 255 255"
+			"image_armedcolor"	"8 6 8 255"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"1"
+			"paintborder"		"1"
+			"image_drawcolor"	"235 245 255 255"
+			"image_armedcolor"	"8 6 8 255"
+
+			"border_default"	"DeniNoBorder"
+			"border_armed"		"DeniNoBorderWhite"
+
+			"defaultFgColor_override" "235 245 255 255"
+			"armedFgColor_override" "8 6 8 255"
+			"depressedFgColor_override" "235 245 255 255"
+
+			"defaultBgColor_override" "8 6 8 255"
+			"armedBgColor_override" "235 245 255 255"
+			"depressedBgColor_override" "8 6 8 255"
 
 			"SubImage"
 			{
+				// "ControlName"	"ImagePanel"
+				// "fieldName"		"SubImage"
+				// "xpos"			"cs-0.5"
+				// "ypos"			"rs1-2"
+				// "zpos"			"1"
+				// "wide"			"20"
+				// "tall"			"20"
+				// "visible"		"0"
+				// "enabled"		"0"
+				// "scaleImage"	"1"
+				// "proportionaltoparent"	"1"
+				// "image"			"glyph_chat"
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"cs-0.5"
@@ -125,13 +155,104 @@
 				"zpos"			"1"
 				"wide"			"20"
 				"tall"			"20"
-				"visible"		"0"
-				"enabled"		"0"
+				"visible"		"1"
+				"enabled"		"1"
 				"scaleImage"	"1"
+				"image"			"..\vgui\replay\thumbnails\voiceChat"
+
 				"proportionaltoparent"	"1"
-				"image"			"glyph_chat"
+				"mouseinputenabled"	"0"
+				"keyboardinputenabled" "0"
 			}
 		}
+
+		// "WatchStreamButton"
+		// {
+		// 	"ControlName"	"EditablePanel"
+		// 	"fieldName"		"WatchStreamButton"
+		// 	"xpos"			"c-405" // c-212
+		// 	"ypos"			"r91" //84
+		// 	"zpos"			"1"
+		// 	"wide"			"25"
+		// 	"tall"			"25"
+		// 	"autoResize"	"0"
+		// 	"pinCorner"		"3"
+		// 	"visible"		"1"
+		// 	"enabled"		"1"
+		// 	"tabPosition"	"0"
+    //
+		// 	"navUp"			"Notifications_Panel"
+		// 	"navLeft"		"SettingsButton"
+    //
+		// 	//"border"		"DeniNoBorder"
+    //
+		// 	"SubButton"
+		// 	{
+		// 		"ControlName"	"CExImageButton"
+		// 		"fieldName"		"SubButton"
+		// 		"xpos"			"0"
+		// 		"ypos"			"0"
+		// 		"wide"			"f0"
+		// 		"tall"			"f0"
+		// 		"autoResize"	"0"
+		// 		"pinCorner"		"3"
+		// 		"visible"		"1"
+		// 		"enabled"		"1"
+		// 		"tabPosition"	"0"
+		// 		"textinsetx"	"25"
+		// 		"labelText"		""
+		// 		"use_proportional_insets" "1"
+		// 		"font"			"HudFontSmallBold"
+		// 		"command"		"watch_stream"
+		// 		"textAlignment"	"west"
+		// 		"dulltext"		"0"
+		// 		"brighttext"	"0"
+		// 		"default"		"1"
+		// 		"sound_depressed"	"UI/buttonclick.wav"
+		// 		"sound_released"	"vo/null.mp3"
+		// 		"actionsignallevel" "2"
+		// 		"proportionaltoparent"	"1"
+    //
+		// 		"sound_depressed"	"UI/buttonclick.wav"
+		// 		"sound_released"	"UI/buttonclickrelease.wav"
+		// 		"paintbackground"	"1"
+		// 		"paintborder"		"1"
+		// 		"image_drawcolor"	"235 245 255 255"
+		// 		"image_armedcolor"	"8 6 8 255"
+    //
+		// 		"border_default"	"DeniNoBorder"
+		// 		"border_armed"		"DeniNoBorderWhite"
+    //
+		// 		"defaultFgColor_override" "235 245 255 255"
+		// 		"armedFgColor_override" "8 6 8 255"
+		// 		"depressedFgColor_override" "235 245 255 255"
+    //
+		// 		"defaultBgColor_override" "8 6 8 255"
+		// 		"armedBgColor_override" "235 245 255 255"
+		// 		"depressedBgColor_override" "8 6 8 255"
+    //
+    //
+		// 		"SubImage"
+		// 		{
+		// 			"ControlName"	"ImagePanel"
+		// 			"fieldName"		"SubImage"
+		// 			"xpos"			"cs-0.5"
+		// 			"ypos"			"cs-0.5"
+		// 			"zpos"			"1"
+		// 			"wide"			"f0"
+		// 			"tall"			"f0"
+		// 			"visible"		"1"
+		// 			"enabled"		"1"
+		// 			"scaleImage"	"1"
+		// 			"image"			"..\vgui\replay\thumbnails\twitch"
+    //
+		// 			"proportionaltoparent"	"1"
+		// 			"mouseinputenabled"	"0"
+		// 			"keyboardinputenabled" "0"
+		// 		}
+		// 	}
+		// }
+
 
 		"PartySlot0"
 		{
@@ -381,13 +502,13 @@
 				"Command"		"leave_queue"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
-			
+
 				"paintbackground"	"0"
-			
+
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "46 43 42 255"
-			
+
 				"image_drawcolor"	"117 107 94 255"
 				"image_armedcolor"	"200 80 60 255"
 				"SubImage"
@@ -403,8 +524,8 @@
 					"enabled"		"1"
 					"image"			"close_button"
 					"scaleImage"	"1"
-				}				
-			}		
+				}
+			}
 		}
 
 		"JoinPartyLobbyContainer"
@@ -466,7 +587,7 @@
 				"labelText"		"#TF_MM_JoinPartyLobby_Prompt"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
-			}		
+			}
 
 			"JoinNowButton"
 			{
@@ -483,7 +604,7 @@
 					"xpos"			"cs-0.5"
 					"wide"			"150"
 				}
-				
+
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"
