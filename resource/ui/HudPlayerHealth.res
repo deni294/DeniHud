@@ -1,22 +1,22 @@
 "Resource/UI/HudPlayerHealth.res"
-{	
+{
 	// player health data
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-200"		
-		"ypos"			"c-120"	
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"625"
-		"tall"			"355"
+		"wide"			"f0"
+		"tall"			"480"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
-		"HealthDeathWarningColor"	"DeniRed"
-	}	
-	
+		"HealthDeathWarningColor"	"DeniDying"
+	}
+
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -30,7 +30,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"alpha"			"0"
-	}		
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -43,52 +43,69 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"34"
-		"ypos"			"208"
+		"xpos"			"c-168"
+		"ypos"			"c85"
 		"zpos"			"2"
-		"wide"			"30"	
-		"tall"			"30"	
+		"wide"			"36"
+		"tall"			"36"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	
+
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"-102"
-		"ypos"			"175"
+		"xpos"			"c-225"
+		"ypos"			"c75"
 		"zpos"			"5"
-		"wide"			"300"
-		"tall"			"100"
+		"wide"			"150"
+		"tall"			"55"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"font"			"DeniProxNova52"
 		"fgcolor"		"DeniWhite"
 	}
+	"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		"xpos"			"c-223"
+		"ypos"			"c76"
+		"zpos"			"5"
+		"wide"			"150"
+		"tall"			"55"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"
+		"font"			"DeniProxNova52"
+		"fgcolor"		"DeniBlack"
+	}
+
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"-102"
-		"ypos"			"200"	
+		"xpos"			"c-225"
+		"ypos"			"c100"
 		"zpos"			"6"
-		"wide"			"300"
-		"tall"			"100"
+		"wide"			"150"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"font"			"DeniProxNova10"
 		"fgcolor"		"DeniWhite"
 	}
@@ -96,135 +113,143 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValueShadow"
-		"xpos"			"-101"
-		"ypos"			"201"	
+		"xpos"			"c-224"
+		"ypos"			"c101"
 		"zpos"			"6"
-		"wide"			"300"
-		"tall"			"100"
+		"wide"			"150"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"font"			"DeniProxNova10"
 		"fgcolor"		"DeniShade"
 	}
 
-	"PlayerStatusHealthValueShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"-100"
-		"ypos"			"176"
-		"zpos"			"5"
-		"wide"			"300"
-		"tall"			"100"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"	
-		"font"			"DeniProxNova52"
-		"fgcolor"		"DeniBlack"
-	}
+
 	"LowHpLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LowHpLabel"
-		"xpos"			"0"
-		"ypos"			"-20"
+		"xpos"			"c-100"
+		"ypos"			"c-150"
 		"zpos"			"5"
 		"wide"			"200"
-		"tall"			"100"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"LOW HEALTH"
-		"textAlignment"	"west"	
-		"font"			"DeniProxNovaBold14"
+		"textAlignment"	"center"
+		"font"			"DeniProxNovaBold16"
 		"fgcolor"		"0 0 0 0"
 	}
 	"LowHpLabelSha"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LowHpLabelSha"
-		"xpos"			"1"
-		"ypos"			"-19"
+		"xpos"			"c-99"
+		"ypos"			"c-149"
 		"zpos"			"5"
 		"wide"			"200"
-		"tall"			"100"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"LOW HEALTH"
-		"textAlignment"	"west"	
-		"font"			"DeniProxNovaBold14"
+		"textAlignment"	"center"
+		"font"			"DeniProxNovaBold16"
 		"fgcolor"		"0 0 0 0"
 	}
+
+	// "Health_edge_hurt"
+	// {
+	// 	"ControlName"	"ScalableImagePanel"
+	// 	"fieldName"		"Health_edge_hurt"
+	// 	"xpos"			"0"
+	// 	"ypos"			"0"
+	// 	"zpos"			"0"
+	// 	"wide"			"f0"
+	// 	"tall"			"f0"
+	// 	"visible"		"1"
+	// 	"enabled"		"1"
+	// 	"image"			"replay/thumbnails/fgmenu/health_edge_hurt"
+	// 	"scaleImage"	"1"
+	// 	"proportionaltoparent"	"1"
+	// 	"Alpha" "0"
+	// }
+
+
+
+
+
+
 
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"600"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../vgui/bleed_drop"
-		"fgcolor"		"AntsHUDGray"
-	}		
+		"fgcolor"		"DeniGray"
+	}
 	"PlayerStatusMilkImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMilkImage"
-		"xpos"			"100"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../vgui/bleed_drop"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"DeniGray"
 	}
 	"PlayerStatusMarkedForDeathImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathImage"
-		"xpos"			"100"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c40"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../vgui/marked_for_death"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"DeniGray"
 	}
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathSilentImage"
-		"xpos"			"100"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../vgui/marked_for_death"
-		"fgcolor"		"AntsHUDGray"	
+		"fgcolor"		"DeniGray"
 	}
-	
+
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
 		"ControlName" 	"ImagePanel"
 		"fieldName" 	"PlayerStatus_MedicUberBulletResistImage"
-		"xpos" 			"100"
-		"ypos" 			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos" 			"7"
 		"wide" 			"23"
 		"tall" 			"23"
@@ -232,15 +257,15 @@
 		"enabled" 		"1"
 		"scaleImage" 	"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgcolor" 		"AntsHUDGray"
-	}	
-	
+		"fgcolor" 		"DeniGray"
+	}
+
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
 		"ControlName" 	"ImagePanel"
 		"fieldName" 	"PlayerStatus_MedicUberBlastResistImage"
-		"xpos" 			"100"
-		"ypos" 			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos" 			"7"
 		"wide" 			"23"
 		"tall" 			"23"
@@ -248,15 +273,15 @@
 		"enabled" 		"1"
 		"scaleImage" 	"1"
 		"image"			"../HUD/defense_buff_explosion_blue"
-		"fgcolor" 		"AntsHUDGray"
-	}	
-	
+		"fgcolor" 		"DeniGray"
+	}
+
 	"PlayerStatus_MedicUberFireResistImage"
 	{
 		"ControlName" 	"ImagePanel"
 		"fieldName" 	"PlayerStatus_MedicUberFireResistImage"
-		"xpos" 			"100"
-		"ypos" 			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos" 			"7"
 		"wide" 			"23"
 		"tall" 			"23"
@@ -264,15 +289,15 @@
 		"enabled" 		"1"
 		"scaleImage" 	"1"
 		"image"			"../HUD/defense_buff_fire_blue"
-		"fgcolor" 		"AntsHUDGray"
+		"fgcolor" 		"DeniGray"
 	}
-	
+
 	"PlayerStatus_MedicSmallBulletResistImage"
 	{
 		"ControlName" 	"ImagePanel"
 		"fieldName" 	"PlayerStatus_MedicSmallBulletResistImage"
-		"xpos" 			"100"
-		"ypos" 			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos" 			"7"
 		"wide" 			"23"
 		"tall" 			"23"
@@ -280,15 +305,15 @@
 		"enabled" 		"1"
 		"scaleImage" 	"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgcolor" 		"AntsHUDGray"
-	}	
-	
+		"fgcolor" 		"DeniGray"
+	}
+
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
 		"ControlName" 	"ImagePanel"
 		"fieldName" 	"PlayerStatus_MedicSmallBlastResistImage"
-		"xpos" 			"100"
-		"ypos" 			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos" 			"7"
 		"wide" 			"23"
 		"tall" 			"23"
@@ -296,15 +321,15 @@
 		"enabled" 		"1"
 		"scaleImage" 	"1"
 		"image"			"../HUD/defense_buff_explosion_blue"
-		"fgcolor" 		"AntsHUDGray"
-	}	
-	
+		"fgcolor" 		"DeniGray"
+	}
+
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
 		"ControlName" 	"ImagePanel"
 		"fieldName" 	"PlayerStatus_MedicSmallFireResistImage"
-		"xpos" 			"100"
-		"ypos" 			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos" 			"7"
 		"wide" 			"23"
 		"tall" 			"23"
@@ -312,296 +337,296 @@
 		"enabled" 		"1"
 		"scaleImage" 	"1"
 		"image"			"../HUD/defense_buff_fire_blue"
-		"fgcolor" 		"AntsHUDGray"
+		"fgcolor" 		"DeniGray"
 	}
-	
+
 		"PlayerStatus_WheelOfDoom"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
-		"xpos"			"100"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../signs/death_wheel_whammy"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"DeniGray"
 	}
 		"PlayerStatus_SoldierOffenseBuff"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierOffenseBuff"
-		"xpos"			"85"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"DeniGray"
 	}
 
 	"PlayerStatus_SoldierDefenseBuff"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierDefenseBuff"
-		"xpos"			"85"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"DeniGray"
 	}
 
 	"PlayerStatus_SoldierHealOnHitBuff"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierHealOnHitBuff"
-		"xpos"			"85"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"DeniGray"
 	}
-	
+
 	"PlayerStatus_SpyMarked"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SpyMarked"
-		"xpos"			"115"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"0"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			""
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"DeniGray"
 	}
-	
+
 	"PlayerStatus_Parachute"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_Parachute"
-		"xpos"			"85"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"0"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			""
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"DeniGray"
 	}
-	
+
 	"PlayerStatus_RuneStrength"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneStrength"
-		"xpos"			"85"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../Effects/powerup_strength_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"DeniGray"
 	}
 	"PlayerStatus_RuneHaste"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneHaste"
-		"xpos"			"85"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../Effects/powerup_haste_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"DeniGray"
 	}
 	"PlayerStatus_RuneRegen"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneRegen"
-		"xpos"			"85"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../Effects/powerup_regen_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"DeniGray"
 	}
 	"PlayerStatus_RuneResist"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneResist"
-		"xpos"			"85"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../Effects/powerup_resist_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"DeniGray"
 	}
 	"PlayerStatus_RuneVampire"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneVampire"
-		"xpos"			"85"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../Effects/powerup_vampire_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"DeniGray"
 	}
 	"PlayerStatus_RuneReflect"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneReflect"
-		"xpos"			"85"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../Effects/powerup_reflect_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"DeniGray"
 	}
 	"PlayerStatus_RunePrecision"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RunePrecision"
-		"xpos"			"85"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../Effects/powerup_precision_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"DeniGray"
 	}
 	"PlayerStatus_RuneAgility"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneAgility"
-		"xpos"			"85"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../Effects/powerup_agility_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"DeniGray"
 	}
 	"PlayerStatus_RuneKnockout"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneKnockout"
-		"xpos"			"85"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../Effects/powerup_knockout_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"DeniGray"
 	}
 	"PlayerStatus_RuneKing"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneKing"
-		"xpos"			"85"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../Effects/powerup_king_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"DeniGray"
 	}
 	"PlayerStatus_RunePlague"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RunePlague"
-		"xpos"			"85"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../Effects/powerup_plague_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"DeniGray"
 	}
 	"PlayerStatus_RuneSupernova"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneSupernova"
-		"xpos"			"85"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../Effects/powerup_supernova_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"DeniGray"
 	}
 	"PlayerStatusSlowed"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusSlowed"
-		"xpos"			"85"
-		"ypos"			"0"
+		"xpos"			"400"//ez_replace
+		"ypos"			"c50"
 		"zpos"			"7"
 		"wide"			"23"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../vgui/slowed"
 		"fgcolor"		"TanDark"
 	}
