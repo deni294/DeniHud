@@ -18,17 +18,17 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
-		"xpos"		"8"
+		"xpos"		"0"
 		"ypos"		"20"
 		"zpos"		"99"
 		"wide"		"f0"
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCompetitive"
-		"textAlignment"	"west"
-		"font"			"HudFontMediumBigBold"
-		"fgcolor_override"	"TanDark"
-		
+		"textAlignment"	"center"
+		"font"			"DeniProxNovaBold25"
+		"fgcolor_override"	"DeniWhite"
+
 		"mouseinputenabled"	"0"
 	}
 
@@ -59,6 +59,23 @@
 		"proportionaltoparent"	"1"
 	}
 
+	"RankTooltipPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RankTooltipPanel"
+		"xpos"			"5"
+		"ypos"			"40"
+		"zpos"			"1000"
+		"wide"			"8"
+		"tall"			"8"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+		"image"			"info"
+		"scaleImage"	"1"
+		"alpha"			"75"
+	}
+
 	"stats"
 	{
 		"fieldName"		"stats"
@@ -69,6 +86,23 @@
 		"tall"			"f80"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
+	}
+
+	"ToolTipButtonHack"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ToolTipButtonHack"
+		"xpos"			"cs-0.5"
+		"ypos"			"rs1-8"
+		"zpos"			"101"
+		"wide"			"f20"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"1"
+		"mouseinputenabled"	"1"
+		"eatmouseinput"	"0"
+		"showtooltipswhenmousedisabled"	"1"
+		"proportionaltoparent" "1"
 	}
 
 	"QueueButton"
@@ -85,7 +119,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"DeniProxNovaBold20"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

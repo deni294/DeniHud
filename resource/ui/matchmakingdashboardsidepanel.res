@@ -5,7 +5,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Shade"
 		"xpos"			"3"
-		"ypos"			"0"
+		"ypos"			"9999" // was 0
 		"zpos"			"1000"
 		"wide"			"f0"
 		"tall"			"f0"
@@ -21,12 +21,12 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"TitleGradient"
 		"xpos"		"3"
-		"ypos"		"9999"
+		"ypos"		"9999" // was 0
 		"wide"		"f0"
 		"tall"		"60"
 		"zpos"	"98"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"rotation"		"3"
 		"proportionaltoparent"	"1"
 		"scaleimage"	"1"
@@ -35,12 +35,12 @@
 
 		"image"		"gradient_pure_black"
 	}
-	
+
 	"InnerGradient"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"InnerGradient"
-		"xpos"		"3"
+		"xpos"		"9999"
 		"rotation"		"2"
 
 		if_left
@@ -49,12 +49,12 @@
 			"rotation"		"1"
 		}
 
-		"ypos"		"9999"
+		"ypos"		"0"
 		"wide"		"30"
 		"tall"		"f0"
 		"zpos"	"1000"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 
 		"proportionaltoparent"	"1"
 		"scaleimage"	"1"
@@ -67,17 +67,21 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"OuterGradient"
-		"xpos"		"rs1"
+		"xpos"		"9999"
 		"rotation"		"1"
 
-		
+		if_left
+		{
+			"xpos"	"0"
+			"rotation"		"2"
+		}
 
-		"ypos"		"9999"
+		"ypos"		"0"
 		"wide"		"20"
 		"tall"		"f0"
 		"zpos"	"1000"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 
 
 		"proportionaltoparent"	"1"
@@ -148,7 +152,7 @@
 
 		"armedFgColor_override"	"Orange"
 	}
-	
+
 	"BGPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -157,11 +161,11 @@
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"f-20"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
-		"border"		"DeniBorderNoRight"
-		"BgColor_override"	"DeniBlack"
+		"bgcolor_override" "DeniBlack"
+		"border"		"DeniBorderLeft"
 	}
 }

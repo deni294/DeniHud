@@ -4,11 +4,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ModelContainer"
-		"xpos"			"20" //cs-0.5
-		"ypos"			"-23" //cs-0.5
-		"zpos"			"3"		
-		"wide"			"f0" //f0
-		"tall"			"f0" //f0
+		"xpos"			"cs-0.5" // cs-0.5
+		"ypos"			"cs-0.5" // cs-0.5
+		"zpos"			"3"
+		"wide"			"f0"
+		"tall"			"f0"
 		"proportionaltoparent"	"1"
 		"actionsignallevel"	"2"
 
@@ -16,13 +16,18 @@
 		{
 			"ControlName"	"CTFParticlePanel"
 			"fieldName"		"BelowModelParticlePanel"
-			"xpos"			"9999"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
 			"wide"			"f0"
 			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
 
 			"ParticleEffects"
 			{
@@ -37,30 +42,37 @@
 				}
 			}
 
-			"paintbackground"	"0"	
+			"paintbackground"	"0"
 		}
 
 		"RankModel"
 		{
 			"ControlName"	"CBaseModelPanel"
 			"fieldName"		"RankModel"
-			"xpos"			"cs-0.5" //cs-0.5
-			"ypos"			"cs-0.5" //cs-0.5
-			"zpos"			"0"		
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"0"
 			"wide"			"o1"
 			"tall"			"p0.12"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fov"			"110"
+			"fov"			"85"
 			"proportionaltoparent"	"1"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+				"ypos"		"cs-0.5"
+				"wide"		"200"
+				"tall"		"200"
+			}
 
 			"paintbackground"	"0"
 
 			"render_texture"	"0"
-		
+
 			"model"
 			{
 				"force_pos"		"1"
@@ -85,7 +97,7 @@
 					"default"	"1"
 				}
 			}
-		
+
 			"lights"
 			{
 				"default"
@@ -110,6 +122,11 @@
 			"proportionaltoparent"	"1"
 
 			"paintbackground"	"0"
+
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
 
 			"ParticleEffects"
 			{
@@ -150,7 +167,7 @@
 			"ControlName"	"Button"
 			"fieldName"		"MedalButton"
 			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5" //cs-0.5+2
+			"ypos"			"cs-0.5+2"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"42"
@@ -171,112 +188,142 @@
 		"xpos"			"rs1"
 		"ypos"			"20"
 		"zpos"			"-1"
-		"wide"			"260" //260
-		"tall"			"f10" //f40
+		"wide"			"260"
+		"tall"			"f40"
 		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"border"		""
+		"PaintBackgroundType"	"0"
 		"proportionaltoparent"	"1"
 
-		// if_mini
-		// {
-		// 	"xpos"			"cs-0.5"
-		// 	"ypos"			"cs-0.5"
-		// 	"tall"			"35"
-		// 	"wide"			"505"
-		// }
+		"bgcolor_override" "DeniBlack"
+	"border" 	"DeniBorderNoBottom"
+
+		if_mini
+		{
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"tall"			"35"
+			"wide"			"505"
+		}
 
 		"NameLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
 			"xpos"			"65"
-			"ypos"			"13"
+			"ypos"			"5"
 			"wide"			"f0"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"DeniProxNova12"
+			"font"			"DeniProxNova16"
 			"fgcolor_override"	"DeniWhite"
-			"textAlignment"	"west"
+			"textAlignment"	"north-west"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"visible"	"0"
+			}
 		}
-		"NameLabelSha"
+
+		"DescLine1"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"NameLabelSha"
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine1"
 			"xpos"			"65"
-			"ypos"			"14"
-			"wide"			"f0"
+			"ypos"			"19"
+			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"DeniProxNova12"
-			"fgcolor_override"	"DeniShade"
-			"textAlignment"	"west"
-			"labelText"		"%name%"
+			"font_override"			"DeniProxNova12"
+			"fgcolor_override"	"DeniWhite"
+			"textAlignment"	"north-west"
+			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"	"67"
+				"ypos"	"4"
+			}
+
+			"fonts"
+			{
+				"0"		"DeniProxNova12"
+				"1"		"DeniProxNova12"
+				"2"		"DeniProxNova12"
+			}
 		}
-		"LevelLabel"
+
+		"DescLine2"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabel"
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
 			"xpos"			"65"
-			"ypos"			"25"
-			"wide"			"200"
+			"ypos"			"30"
+			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"DeniProxNova10"
 			"fgcolor_override"	"DeniWhite"
-			"textAlignment"	"west"
-			"labelText"		"%level%"
+			"textAlignment"	"north-west"
+			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"	"67"
+				"ypos"	"5"
+			}
+
+			"fonts"
+			{
+				"0"		"DeniProxNova10"
+				"1"		"DeniProxNova10"
+				"2"		"DeniProxNova10"
+			}
+
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"TanLight"
+			}
 		}
-		"LevelLabelSha"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabelSha"
-			"xpos"			"66"
-			"ypos"			"26"
-			"wide"			"200"
-			"zpos"			"100"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
-			"font"			"DeniProxNova10"
-			"fgcolor_override"	"DeniShade"
-			"textAlignment"	"west"
-			"labelText"		"%level%"
-			"proportionaltoparent"	"1"
-		}
+
 		"StatsContainer"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
 			"xpos"			"rs1-5"
-			"ypos"			"-1"
+			"ypos"			"0"
 			"wide"			"f70"
-			"tall"			"f0-1" //f0
+			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
-			
+			if_mini
+			{
+				"xpos"			"rs1-10"
+				"ypos"			"0"
+				"wide"			"p0.85"
+			}
 
 			"XPBar"
 			{
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
-				"xpos"			"cs-0.63" // was cs-0.5
-				"ypos"			"rs1-32" // rs1-3
-				"wide"			"p0.8" // was p1
+				"xpos"			"cs-0.5"
+				"ypos"			"rs1-3"
+				"wide"			"p1"
 				"tall"			"30"
 				"proportionaltoparent"	"1"
 
-	
+
 
 				"CurrentXPLabel"
 				{
@@ -287,9 +334,9 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"visible"		"0"
-					"enabled"		"0"
-					"font"			"ItemFontAttribSmall"
+					"visible"		"1"
+					"enabled"		"1"
+					"font"			"DeniProxNova7"
 					"fgcolor_override"	"DeniWhite"
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
@@ -305,9 +352,9 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"visible"		"0"
-					"enabled"		"0"
-					"font"			"ItemFontAttribSmall"
+					"visible"		"1"
+					"enabled"		"1"
+					"font"			"DeniProxNova7"
 					"fgcolor_override"	"DeniWhite"
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
@@ -374,47 +421,47 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"Stats"
 				"xpos"			"0"
-				"ypos"			"50"
+				"ypos"			"5"
 				"wide"			"f0"
-				"tall"			"p0.50" //p0.45
-				"visible"		"1"
+				"tall"			"p0.45"
+				"visible"		"0"
 				"proportionaltoparent"	"1"
-				"bgcolor_override"	"0 0 0 255"
+				"bgcolor_override"	"0 0 0 150"
 
-				// "if_mini"
-				// {
-				// 	"visible"		"0"
-				// }
+				"if_mini"
+				{
+					"visible"		"0"
+				}
 
-				// "Frame"
-				// {
-				// 	"ControlName"	"EditablePanel"
-				// 	"fieldName"		"Frame"
-				// 	"xpos"			"0"
-				// 	"ypos"			"0"
-				// 	"zpos"			"10"
-				// 	"wide"			"f0"
-				// 	"tall"			"f0"
-				// 	"proportionaltoparent"	"1"
-				// 	"border"		"InnerShadowBorder"
-				// }
+				"Frame"
+				{
+					"ControlName"	"EditablePanel"
+					"fieldName"		"Frame"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"10"
+					"wide"			"f0"
+					"tall"			"f0"
+					"proportionaltoparent"	"1"
+					"border"		"InnerShadowBorder"
+				}
 
 
-	
+
 				// First column
 				"GamesLabel"
 				{
 					"ControlName"	"Label"
 					"fieldName"		"GamesLabel"
 					"xpos"			"10"
-					"ypos"			"0+2"
+					"ypos"			"0"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"DeniProxNova8"
-					"fgcolor_override"	"DeniWhite"
+					"font"			"HudFontSmallest"
+					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_games%"
 					"proportionaltoparent"	"1"
@@ -425,14 +472,14 @@
 					"ControlName"	"Label"
 					"fieldName"		"KillsLabel"
 					"xpos"			"10"
-					"ypos"			"10+2"
+					"ypos"			"10"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"DeniProxNova8"
-					"fgcolor_override"	"DeniWhite"
+					"font"			"HudFontSmallest"
+					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_kills%"
 					"proportionaltoparent"	"1"
@@ -443,14 +490,14 @@
 					"ControlName"	"Label"
 					"fieldName"		"DeathsLabel"
 					"xpos"			"10"
-					"ypos"			"20+2"
+					"ypos"			"20"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"DeniProxNova8"
-					"fgcolor_override"	"DeniWhite"
+					"font"			"HudFontSmallest"
+					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_deaths%"
 					"proportionaltoparent"	"1"
@@ -462,14 +509,14 @@
 					"ControlName"	"Label"
 					"fieldName"		"DamageLabel"
 					"xpos"			"c-20"
-					"ypos"			"0+2"
+					"ypos"			"0"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"DeniProxNova8"
-					"fgcolor_override"	"DeniWhite"
+					"font"			"HudFontSmallest"
+					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_damage%"
 					"proportionaltoparent"	"1"
@@ -480,14 +527,14 @@
 					"ControlName"	"Label"
 					"fieldName"		"HealingLabel"
 					"xpos"			"c-20"
-					"ypos"			"10+2"
+					"ypos"			"10"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"DeniProxNova8"
-					"fgcolor_override"	"DeniWhite"
+					"font"			"HudFontSmallest"
+					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_healing%"
 					"proportionaltoparent"	"1"
@@ -502,10 +549,10 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"visible"		"0"
-					"enabled"		"0"
-					"font"			"DeniProxNova8"
-					"fgcolor_override"	"DeniWhite"
+					"visible"		"1"
+					"enabled"		"1"
+					"font"			"HudFontSmallest"
+					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_support%"
 					"proportionaltoparent"	"1"
@@ -516,15 +563,15 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"ScoreLabel"
-					"xpos"			"c-20"
-					"ypos"			"20+2"
+					"xpos"			"rs1"
+					"ypos"			"0"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"DeniProxNova8"
-					"fgcolor_override"	"DeniWhite"
+					"font"			"HudFontSmallest"
+					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_score%"
 					"proportionaltoparent"	"1"

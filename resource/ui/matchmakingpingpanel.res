@@ -28,7 +28,8 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"DeniBorderNoLeft"
+		"border"		"DeniBorderRight"
+		"bgcolor_override"	"DeniBlack"
 		"proportionaltoparent"	"1"
 	}
 
@@ -46,7 +47,7 @@
 		"textAlignment"	"center"
 		"font"			"DeniProxNovaBold25"
 		"fgcolor_override"	"DeniWhite"
-		
+
 		"mouseinputenabled"	"0"
 	}
 
@@ -66,7 +67,7 @@
 		"smallcheckimage"	"1"
 		"fgcolor_override"	"DeniGray"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 	}
 
@@ -108,7 +109,7 @@
 		"font"			"DeniProxNova12"
 		"smallcheckimage"	"1"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 
 		"cvar_name" "tf_party_ignore_invites"
@@ -130,7 +131,7 @@
 		"smallcheckimage"	"1"
 		"enabled"	"0"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 	}
 
@@ -149,7 +150,7 @@
 		"font"			"DeniProxNova12"
 		"smallcheckimage"	"1"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 		"fgcolor_override"		"DeniGray"
 	}
@@ -170,7 +171,7 @@
 		"smallcheckimage"	"1"
 		"actionsignallevel"	"1"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 
 		"cvar_name"	"tf_mm_custom_ping_enabled"
@@ -193,7 +194,7 @@
 		"font"			"DeniProxNova12"
 		"smallcheckimage"	"1"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 	}
 
@@ -213,7 +214,7 @@
 		"wrap"		"1"
 		"fgcolor"		"117 107 94 255"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclickrelease.wav"
 		"button_activation_type"	"1"
 	}
 
@@ -230,7 +231,7 @@
 		"labeltext"		""
 		"textAlignment"	"west"
 		"font"			"DeniProxNova12"
-		
+
 		"mouseinputenabled"	"0"
 	}
 
@@ -301,14 +302,14 @@
 				{
 					"fgcolor_override"	"DeniGray"
 				}
-		
+
 				"UpButton"
 				{
 					"ControlName"	"Button"
 					"FieldName"		"UpButton"
 					"visible"		"0"
 				}
-		
+
 				"DownButton"
 				{
 					"ControlName"	"Button"
@@ -331,7 +332,7 @@
 			"border"		"InnerShadowBorder"
 			"mouseinputenabled"	"0"
 		}
-			
+
 		"Background"
 		{
 			"ControlName"	"EditablePanel"
