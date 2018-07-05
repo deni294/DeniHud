@@ -13,20 +13,20 @@
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/misc_ammo_area_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
 	}
-	
+
 	"ChargeLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ChargeLabel"
 		"xpos"				"9999"
 		"ypos"				"64"
-		
+
 		"zpos"				"2"
 		"wide"				"150"
 		"tall"				"12"
@@ -43,17 +43,17 @@
 		"fgcolor_override"	"AntsHUDDeepSkyBlue"
 	}
 
-	"ChargeMeter"
-	{	
+	"ChargeMeter" // affects location of demokknight charge meter
+	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter"
 		"font"				"Default"
-		"xpos"				"37"
-		"ypos"				"40"
-		
+		"xpos"				"37" // 37
+		"ypos"				"40" // 40
+
 		"zpos"				"1"
 		"wide"				"75"
-		"tall"				"3"				
+		"tall"				"3"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -62,20 +62,20 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"bgcolor_override"	"20 20 20 150"
-	}				
-		
+	}
+
 	"PipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
 		"xpos"			"160"
 		"ypos"			"30"
-	
+
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"
-		
+
 		"PipeIcon"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -89,9 +89,9 @@
 			"image"			"../hud/ico_stickybomb_red"
 			"scaleImage"	"1"
 			"teambg_2"		"../hud/ico_stickybomb_red"
-			"teambg_3"		"../hud/ico_stickybomb_blue"	
-		}	
-		
+			"teambg_3"		"../hud/ico_stickybomb_blue"
+		}
+
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -133,9 +133,9 @@
 			"brighttext"	"0"
 			"font"			"DeniProxNova24"
 			"fgcolor"		"DeniShade"
-		}		
+		}
 	}
-	
+
 	"NoPipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -146,7 +146,7 @@
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"
-		
+
 		"PipeIcon"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -163,7 +163,7 @@
 			"image"			"../hud/ico_stickybomb_red_faded"
 			"scaleImage"	"1"
 			"teambg_2"		"../hud/ico_stickybomb_red_faded"
-			"teambg_3"		"../hud/ico_stickybomb_blue_faded"	
+			"teambg_3"		"../hud/ico_stickybomb_blue_faded"
 		}
 
 		"NumPipesLabel"
@@ -211,6 +211,6 @@
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
 			"fgcolor"		"black"
-		}			
-	}				
+		}
+	}
 }

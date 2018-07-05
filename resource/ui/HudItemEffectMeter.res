@@ -6,14 +6,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c130"
-		"ypos"			"c171"	
-			
+		"ypos"			"c171"
+
 		"wide"			"500"
 		"tall"			"500"
 		"MeterFG"		"AntsHUDWhite"
 		"MeterBG"		"Grey"
 	}
-	
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -24,23 +24,23 @@
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"0"
-		
+
 		"enabled"		"0"
 		"image"			"../hud/misc_ammo_area_horiz1_blue"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"0"
 		"ypos"					"0"
-		"zpos"					"1"
+		"zpos"					"5"
 		"wide"					"150"
 		"tall"					"12"
 		"autoResize"			"1"
@@ -52,12 +52,12 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NeutraDisp14"
-		"fgcolor_override"		"AntsHUDDeepSkyBlue"
+		"font"					"DeniProxNova14"
+		"bgcolor"		"0 0 0 255"
 	}
 
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
@@ -65,7 +65,7 @@
 		"ypos"					"12"
 		"zpos"					"2"
 		"wide"					"80"
-		"tall"					"7"				
+		"tall"					"7"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -74,5 +74,5 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"bgcolor_override"		"20 20 20 150"
-	}					
+	}
 }

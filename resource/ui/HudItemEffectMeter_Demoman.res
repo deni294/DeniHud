@@ -5,15 +5,15 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"50"	
-			
-		"ypos"			"367"
-		"wide"			"500"
-		"tall"			"500"
+		"xpos"			"c180"
+
+		"ypos"			"c50"
+		"wide"			"50"
+		"tall"			"50"
 		"MeterFG"		"DeniWhite"
 		"MeterBG"		"DeniShade"
 	}
-	
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -27,22 +27,22 @@
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/misc_ammo_area_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"90"
-		"ypos"					"80"
+		"xpos"					"0"
+		"ypos"					"15"
 		"zpos"					"2"
-		"wide"					"80"
-		"tall"					"8"
+		"wide"					"50"
+		"tall"					"50"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -55,12 +55,12 @@
 		"font"					"DeniProxNova8"
 	}
 
-	
-	
-	
+
+
+
 
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
@@ -68,7 +68,7 @@
 		"xpos"					"0"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"4"				
+		"tall"					"4"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"
@@ -77,17 +77,17 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"bgcolor_override"		"20 20 20 175"
-	}					
-	
+	}
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"110"
-		"ypos"					"58"
+		"xpos"					"0" // 110
+		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"20"	
+		"wide"					"50"
+		"tall"					"50"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -103,11 +103,11 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountBackground"
-		"xpos"					"111"
-		"ypos"					"60"
+		"xpos"					"1"
+		"ypos"					"1"
 		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"20"	
+		"wide"					"50"
+		"tall"					"50"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"

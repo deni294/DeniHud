@@ -979,16 +979,16 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
 		"font"			"DeniProxNova24"
-		"xpos"			"230"
-		"ypos"			"r55"
+		"xpos"			"c-150"
+		"ypos"			"9999"//r55
 		"zpos"			"2"
-		"wide"			"200"
+		"wide"			"300"
 		"tall"			"40"
 		"zpos"			"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
@@ -997,7 +997,7 @@
 		{
 			"visible"	"1"
 			"enabled"	"1"
-			"xpos"		"c-100"
+			"xpos"		"c-150"
 		}
 
 
@@ -1023,16 +1023,16 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"DeniProxNova24"
-		"xpos"			"c-99"
-		"ypos"			"r54"
+		"xpos"			"c-150"
+		"ypos"			"9999"// r54
 		"zpos"			"1"
-		"wide"			"200"
+		"wide"			"300"
 		"tall"			"40"
 		"zpos"			"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
@@ -1042,7 +1042,7 @@
 		{
 			"visible"	"1"
 			"enabled"	"1"
-			"xpos"		"c-99"
+			"xpos"		"c-150"
 		}
 
 		if_competitive

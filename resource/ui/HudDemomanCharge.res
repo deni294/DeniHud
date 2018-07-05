@@ -1,12 +1,12 @@
 "Resource/UI/HudDemomanCharge.res"
-{	
+{
 	"ChargeMeterLabel"
 	{
 		"ControlName" 		"CExLabel"
 		"fieldName" 		"ChargeMeterLabel"
 		"xpos" 				"9999"
 		"ypos" 				"52"
-		
+
 		"zpos" 				"3"
 		"wide" 				"150"
 		"tall" 				"10"
@@ -21,17 +21,17 @@
 		"brighttext" 	   	"0"
 		"font" 			  	"DeniProxNova14"
 		"fgcolor_override" 	"DeniBlue"
-	}	
-	"ChargeMeter"
-	{	
+	}
+	"ChargeMeter" // affects location of sticky and loose cannon meter
+	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter"
 		"font"				"Avenir12"
-		"xpos"				"130"
-		"ypos"				"135"
+		"xpos"				"130" // 130
+		"ypos"				"135" // 135
 		"zpos"				"2"
 		"wide"				"80"
-		"tall"				"7"				
+		"tall"				"7"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"

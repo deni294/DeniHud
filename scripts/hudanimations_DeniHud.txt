@@ -110,7 +110,7 @@ event HudHealthDyingPulseStop
 	Animate  LowHpLabel						fgcolor		"0 0 0 0"		Linear 0.0001 0.01
 	Animate  LowHpLabelSha				fgcolor		"0 0 0 0"		Linear 0.0001 0.01
 
-	StopEvent HudHealthDyingPulse 0.0
+	// StopEvent HudHealthDyingPulse 0.0
 	StopEvent BonusImageLoop 0.0
 	StopEvent BonusImageLoopAgain 0.0
 
@@ -151,8 +151,8 @@ event HudLowAmmoPulseLoop
 
 event HudLowAmmoPulseStop
 {
-	Animate  LowAmmo						fgcolor		"0 0 0 0"		Linear 0.0001 0.01
-	Animate  LowAmmoSha						fgcolor		"0 0 0 0"		Linear 0.0001 0.01
+	Animate  LowAmmo						fgcolor		"0 0 0 0"		Linear 0.0 0.0
+	Animate  LowAmmoSha						fgcolor		"0 0 0 0"		Linear 0.0 0.0
 
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
@@ -262,18 +262,18 @@ event HitMarker
 //Match Animations
 event CompetitiveGame_LowerChatWindow
 {
-	Animate HudChat ypos r100 Accel 0 0
+	// Animate HudChat ypos r100 Accel 0 0
 }
 
 event CompetitiveGame_RestoreChatWindow
 {
-	Animate HudChat ypos 20 Accel 0 0
+	// Animate HudChat ypos 20 Accel 0 0
 }
 
 event HudTournament_MoveChatWindow
 {
-	RunEvent CompetitiveGame_LowerChatWindow 0
-	RunEvent CompetitiveGame_RestoreChatWindow 10
+	// RunEvent CompetitiveGame_LowerChatWindow 0
+	// RunEvent CompetitiveGame_RestoreChatWindow 10
 }
 
 //-------------------------------------------

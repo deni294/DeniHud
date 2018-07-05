@@ -7,7 +7,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"100"
+		"wide"			"125"
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"fillcolor"		"DeniShade"
 	}
-	
+
 	"CurrencyLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -25,28 +25,28 @@
 		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"3"
-		"wide"			"50"
+		"wide"			"80"
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"Currency"
 	}
-	
+
 	"Currency"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
 		"font"			"DeniProxNova14"
 		"fgcolor"		"DeniGreen"
-		"xpos"			"45"
+		"xpos"			"70"
 		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"50"
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%currency%"
-	}		
+	}
 }
