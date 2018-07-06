@@ -980,15 +980,15 @@
 		"fieldName"		"CountdownLabel"
 		"font"			"DeniProxNova24"
 		"xpos"			"c-150"
-		"ypos"			"9999"//r55
+		"ypos"			"r55"//r55
 		"zpos"			"2"
-		"wide"			"300"
+		"wide"			"200"
 		"tall"			"40"
 		"zpos"			"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
@@ -997,7 +997,7 @@
 		{
 			"visible"	"1"
 			"enabled"	"1"
-			"xpos"		"c-150"
+			"xpos"		"c-100"
 		}
 
 
@@ -1024,9 +1024,9 @@
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"DeniProxNova24"
 		"xpos"			"c-150"
-		"ypos"			"9999"// r54
+		"ypos"			"r54"// r54
 		"zpos"			"1"
-		"wide"			"300"
+		"wide"			"200"
 		"tall"			"40"
 		"zpos"			"1"
 		"autoResize"		"0"
@@ -1042,7 +1042,7 @@
 		{
 			"visible"	"1"
 			"enabled"	"1"
-			"xpos"		"c-150"
+			"xpos"		"c-99"
 		}
 
 		if_competitive
