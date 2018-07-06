@@ -430,15 +430,15 @@
 		}
 	}
 
-	"Notifications_ShowButtonPanel"
+	"Notifications_ShowButtonPanel" // TODO add an image for this
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c148"
-		"ypos"			"28"
+		"xpos"			"22+33+33+33"
+		"ypos"			"r96"
 		"zpos"			"10"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"30"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -450,8 +450,8 @@
 		"navRight"		"Notifications_Panel"
 		"navToRelay"	"Notifications_ShowButtonPanel_SB"
 
-		"border_default"	"ButtonBorder"
-		"border_armed"		"ButtonBorder"
+		"border_default"	"DeniNoBorder"
+		"border_armed"		"DeniNoBorderWhite"
 
 		"defaultFgColor_override" "DeniWhite"
 		"armedFgColor_override" "DeniBlack"
@@ -475,6 +475,7 @@
 			"image"			"glyph_achievements"
 			"scaleImage"	"1"
 			"drawcolor" "210 125 33 255"
+
 		}
 
 		"Notifications_CountLabel"
@@ -534,12 +535,20 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"32"
-				"tall"			"32"
+				"wide"			"30"
+				"tall"			"30"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"button_Alert"
 				"scaleImage"	"1"
+
+				"defaultFgColor_override" "DeniWhite"
+				"armedFgColor_override" "DeniBlack"
+				"depressedFgColor_override" "DeniWhite"
+
+				"defaultBgColor_override" "DeniBlack"
+				"armedBgColor_override" "DeniWhite"
+				"depressedBgColor_override" "DeniBlack"
 			}
 		}
 	}
@@ -549,10 +558,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
 		"xpos"			"22" // c-212
-		"ypos"			"r91" //84
+		"ypos"			"r96" //84
 		"zpos"			"1"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"30"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -655,11 +664,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"22+28" // c-212
-		"ypos"			"r91" //84
+		"xpos"			"22+33" // c-212
+		"ypos"			"r96" //84
 		"zpos"			"1"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"30"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -739,11 +748,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"22+28+28" // c-212
-		"ypos"			"r91" //84
+		"xpos"			"22+33+33" // c-212
+		"ypos"			"r96" //84
 		"zpos"			"1"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"30"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -762,8 +771,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"25"
-			"tall"			"25"
+			"wide"			"30"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -805,8 +814,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"25"
-				"tall"			"25"
+				"wide"			"30"
+				"tall"			"30"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"..\vgui\replay\thumbnails\mail"
@@ -1200,21 +1209,39 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c0"
-		"ypos"			"102"
+		"xpos"			"c-105"
+		"ypos"			"c40"
 		"zpos"			"10"
 		"wide"			"210"
 		"tall"			"80"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
+		"border"		"DeniBorder"
 
 		"navUp"			"MOTD_ShowButtonPanel"
 		"navDown"		"SettingsButton"
 		"navLeft"		"Notifications_ShowButtonPanel"
 		"navRight"		"MOTD_ShowButtonPanel"
 		"navToRelay"	"Notifications_CloseButton"
+
+		"VerticalLine"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"VerticalLine"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-10"
+			"wide"			"f0"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"fillcolor"		"DeniBlack"
+			"PaintBackgroundType"	"0"
+		}
 
 		"Notifications_CloseButton"
 		{
@@ -1272,7 +1299,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"DeniProxNova16"
 			"labelText"		"%notititle%"
 			"textAlignment"	"north-west"
 			"xpos"			"12"
@@ -1283,7 +1310,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"LabelDark"
+			"fgcolor"		"DeniWhite"
 			"wrap"			"1"
 		}
 
@@ -1968,11 +1995,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"r47" // c-212
-		"ypos"			"r91" //84
+		"xpos"			"r52" // c-212
+		"ypos"			"r96" //84
 		"zpos"			"12"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 
 		"navLeft"		"ResumeGameButton"
@@ -1988,8 +2015,8 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"25"
-			"tall"			"25"
+			"wide"			"30"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2052,11 +2079,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"r47-28" // c-212
-		"ypos"			"r91" //84
+		"xpos"			"r52-33" // c-212
+		"ypos"			"r96" //84
 		"zpos"			"12"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 
 		"navLeft"		"ReportPlayerButton"
@@ -2070,8 +2097,8 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"25"
-			"tall"			"25"
+			"wide"			"30"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2110,8 +2137,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"25"
-				"tall"			"25"
+				"wide"			"30"
+				"tall"			"30"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"..\vgui\replay\thumbnails\vote"
@@ -2127,11 +2154,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"r47-28-28" // c-212
-		"ypos"			"r91" //84
+		"xpos"			"r52-33-33" // c-212
+		"ypos"			"r96" //84
 		"zpos"			"12"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 
 		"navLeft"		"CallVoteButton"
@@ -2145,8 +2172,8 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"25"
-			"tall"			"25"
+			"wide"			"30"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2185,8 +2212,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"25"
-				"tall"			"25"
+				"wide"			"30"
+				"tall"			"30"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"..\vgui\replay\thumbnails\mute"
@@ -2262,15 +2289,33 @@
 		}
 	}
 
+	// "VerticalLine"
+	// {
+	// 	"ControlName"		"ImagePanel"
+	// 	"fieldName"		"VerticalLine"
+	// 	"xpos"			"30"
+	// 	"ypos"			"c-110"
+	// 	"zpos"			"999"
+	// 	"wide"			"1"
+	// 	"tall"			"292"
+	// 	"autoResize"	"0"
+	// 	"pinCorner"		"0"
+	// 	"visible"		"1"
+	// 	"enabled"		"1"
+	// 	"tabPosition"	"0"
+	// 	"fillcolor"		"255 255 255 255"
+	// 	"PaintBackgroundType"	"0"
+	// }
+
 
 	"CharacterSetupButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
 		"xpos"			"22"
-		"ypos"			"c-30-13-50-32"
-		"wide"			"70"
-		"tall"			"20"
+		"ypos"			"c-125+28+50"
+		"wide"			"80"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -2278,8 +2323,8 @@
 		"tabPosition"	"0"
 		"textinsetx"	"10"
 		"use_proportional_insets" "1"
-		"font"			"DeniProxNova12"
-		"textAlignment"	"west"
+		"font"			"DeniProxNova15"
+		"textAlignment"	"center" // all previous text alignments were west
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -2345,9 +2390,9 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
 		"xpos"			"22"
-		"ypos"			"c-7-13-50-32"
-		"wide"			"50"
-		"tall"			"20"
+		"ypos"			"c-125+28+28+50"
+		"wide"			"54"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -2355,8 +2400,8 @@
 		"tabPosition"	"0"
 		"textinsetx"	"10"
 		"use_proportional_insets" "1"
-		"font"			"DeniProxNova12"
-		"textAlignment"	"west"
+		"font"			"DeniProxNova15"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -2405,18 +2450,18 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DeniSettingsButton"
 		"xpos"			"22"
-		"ypos"			"c-7+23-13-50-32"
+		"ypos"			"c-125+28+28+28+50"
 		"zpos"			"1"
-		"wide"			"65"
-		"tall"			"20"
+		"wide"			"71"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Options"
-		"font"			"DeniProxNova12"
-		"textAlignment"	"west"
+		"font"			"DeniProxNova15"
+		"textAlignment"	"center"
 		"textinsetx"	"10"
 		"use_proportional_insets" "1"
 		"dulltext"		"0"
@@ -2465,19 +2510,19 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DeniAdvOptions"
-		"xpos"			"22+67"
-		"ypos"			"c-7+23-13-50-32"
+		"xpos"			"22+74"
+		"ypos"			"c-125+28+28+28+50"
 		"zpos"			"2"
-		"wide"			"31"
-		"tall"			"20"
+		"wide"			"44"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"DeniProxNova12"
+		"font"			"DeniProxNova15"
 		"labelText"		"Adv."
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"textinsetx"	"10"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -2518,78 +2563,78 @@
 		}
 	}
 
-	"DeniNewUserForumsButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"DeniNewUserForumsButton"
-		"xpos"			"22"
-		"ypos"			"c-7+23+23-13-50-32"
-		"zpos"			"2"
-		"wide"			"60"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"textinsetx"	"10"
-		"labelText"		"Forums"
-		"font"			"DeniProxNova12"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"view_newuser_forums"
-
-		"use_proportional_insets" "1"
-
-		"navUp"			"VRModeButton"
-		"navLeft"		"QuitButton"
-		"navRight"		"AchievementsButton"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"PaintBackgroundType" "0"
-		"border_default"	""
-
-		"image_drawcolor"	"DeniBlack"
-
-		"border_default"	""
-		"border_armed"		""
-
-		"defaultFgColor_override" "DeniWhite"
-		"armedFgColor_override" "DeniBlack"
-		"depressedFgColor_override" "DeniWhite"
-
-		"defaultBgColor_override" "DeniBlack"
-		"armedBgColor_override" "DeniWhite"
-		"depressedBgColor_override" "DeniBlack"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"4"
-			"ypos"			"4"
-			"zpos"			"1"
-			"wide"			"18"
-			"tall"			"18"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"glyph_tutorial"
-			"scaleImage"	"1"
-		}
-	}
+	// "DeniNewUserForumsButton"
+	// {
+	// 	"ControlName"	"CExImageButton"
+	// 	"fieldName"		"DeniNewUserForumsButton"
+	// 	"xpos"			"22"
+	// 	"ypos"			"c-125+28+28+28"
+	// 	"zpos"			"2"
+	// 	"wide"			"70"
+	// 	"tall"			"25"
+	// 	"autoResize"	"0"
+	// 	"pinCorner"		"3"
+	// 	"visible"		"1"
+	// 	"enabled"		"1"
+	// 	"tabPosition"	"0"
+	// 	"textinsetx"	"10"
+	// 	"labelText"		"Forums"
+	// 	"font"			"DeniProxNova15"
+	// 	"textAlignment"	"center"
+	// 	"dulltext"		"0"
+	// 	"brighttext"	"0"
+	// 	"default"		"1"
+	// 	"Command"		"view_newuser_forums"
+  //
+	// 	"use_proportional_insets" "1"
+  //
+	// 	"navUp"			"VRModeButton"
+	// 	"navLeft"		"QuitButton"
+	// 	"navRight"		"AchievementsButton"
+  //
+	// 	"sound_depressed"	"UI/buttonclick.wav"
+	// 	"sound_released"	"UI/buttonclickrelease.wav"
+	// 	"PaintBackgroundType" "0"
+	// 	"border_default"	""
+  //
+	// 	"image_drawcolor"	"DeniBlack"
+  //
+	// 	"border_default"	""
+	// 	"border_armed"		""
+  //
+	// 	"defaultFgColor_override" "DeniWhite"
+	// 	"armedFgColor_override" "DeniBlack"
+	// 	"depressedFgColor_override" "DeniWhite"
+  //
+	// 	"defaultBgColor_override" "DeniBlack"
+	// 	"armedBgColor_override" "DeniWhite"
+	// 	"depressedBgColor_override" "DeniBlack"
+  //
+	// 	"SubImage"
+	// 	{
+	// 		"ControlName"	"ImagePanel"
+	// 		"fieldName"		"SubImage"
+	// 		"xpos"			"4"
+	// 		"ypos"			"4"
+	// 		"zpos"			"1"
+	// 		"wide"			"18"
+	// 		"tall"			"18"
+	// 		"visible"		"0"
+	// 		"enabled"		"0"
+	// 		"image"			"glyph_tutorial"
+	// 		"scaleImage"	"1"
+	// 	}
+	// }
 
 	"DeniAchievementsButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DeniAchievementsButton"
 		"xpos"			"22"
-		"ypos"			"c-7+23+23+23-13-50-32"
+		"ypos"			"c-125+28+28+28+28+50"
 		"zpos"			"3"
-		"wide"			"97"
-		"tall"			"20"
+		"wide"			"112"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -2597,8 +2642,8 @@
 		"tabPosition"	"0"
 		"textinsetx"	"10"
 		"labelText"		"Achievements"
-		"font"			"DeniProxNova12"
-		"textAlignment"	"west"
+		"font"			"DeniProxNova15"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -2733,73 +2778,73 @@
 	// 	}
 	// }
 
-	"DeniWorkshopButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"DeniWorkshopButton"
-		"xpos"			"22"
-		"ypos"			"c72-50-32"
-		"zpos"			"4"
-		"wide"			"75"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"textinsetx"	"10"
-		"labelText"		"Workshop"
-		"font"			"DeniProxNova12"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"engine OpenSteamWorkshopDialog"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"ButtonBorder"
-
-		"image_drawcolor"	"DeniBlack"
-
-		"use_proportional_insets" "1"
-
-		"border_default"	"ButtonBorder"
-		"border_armed"		"ButtonBorder"
-
-		"defaultFgColor_override" "DeniWhite"
-		"armedFgColor_override" "DeniBlack"
-		"depressedFgColor_override" "DeniWhite"
-
-		"defaultBgColor_override" "DeniBlack"
-		"armedBgColor_override" "DeniWhite"
-		"depressedBgColor_override" "DeniBlack"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"9"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"15"
-			"tall"			"15"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"glyph_steamworkshop"
-			"scaleImage"	"1"
-		}
-	}
+	// "DeniWorkshopButton"
+	// {
+	// 	"ControlName"	"CExImageButton"
+	// 	"fieldName"		"DeniWorkshopButton"
+	// 	"xpos"			"22"
+	// 	"ypos"			"c72-50-32"
+	// 	"zpos"			"4"
+	// 	"wide"			"75"
+	// 	"tall"			"20"
+	// 	"autoResize"	"0"
+	// 	"pinCorner"		"3"
+	// 	"visible"		"1"
+	// 	"enabled"		"1"
+	// 	"tabPosition"	"0"
+	// 	"textinsetx"	"10"
+	// 	"labelText"		"Workshop"
+	// 	"font"			"DeniProxNova12"
+	// 	"textAlignment"	"center"
+	// 	"dulltext"		"0"
+	// 	"brighttext"	"0"
+	// 	"default"		"1"
+	// 	"Command"		"engine OpenSteamWorkshopDialog"
+  //
+	// 	"sound_depressed"	"UI/buttonclick.wav"
+	// 	"sound_released"	"UI/buttonclickrelease.wav"
+	// 	"border_default"	"ButtonBorder"
+  //
+	// 	"image_drawcolor"	"DeniBlack"
+  //
+	// 	"use_proportional_insets" "1"
+  //
+	// 	"border_default"	"ButtonBorder"
+	// 	"border_armed"		"ButtonBorder"
+  //
+	// 	"defaultFgColor_override" "DeniWhite"
+	// 	"armedFgColor_override" "DeniBlack"
+	// 	"depressedFgColor_override" "DeniWhite"
+  //
+	// 	"defaultBgColor_override" "DeniBlack"
+	// 	"armedBgColor_override" "DeniWhite"
+	// 	"depressedBgColor_override" "DeniBlack"
+  //
+	// 	"SubImage"
+	// 	{
+	// 		"ControlName"	"ImagePanel"
+	// 		"fieldName"		"SubImage"
+	// 		"xpos"			"9"
+	// 		"ypos"			"6"
+	// 		"zpos"			"1"
+	// 		"wide"			"15"
+	// 		"tall"			"15"
+	// 		"visible"		"0"
+	// 		"enabled"		"0"
+	// 		"image"			"glyph_steamworkshop"
+	// 		"scaleImage"	"1"
+	// 	}
+	// }
 
 	"DemoUIButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DemoUIButton"
 		"xpos"			"22"
-		"ypos"			"c72-50-32+23"
+		"ypos"			"c-125+28+28+28+28+28+50"
 		"zpos"			"4"
-		"wide"			"58"
-		"tall"			"20"
+		"wide"			"66"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -2807,8 +2852,8 @@
 		"tabPosition"	"0"
 		"textinsetx"	"10"
 		"labelText"		"Demos"
-		"font"			"DeniProxNova12"
-		"textAlignment"	"west"
+		"font"			"DeniProxNova15"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"

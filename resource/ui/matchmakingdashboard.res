@@ -831,7 +831,7 @@
 			"xpos"			"rs1-31-131"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"120"
+			"wide"			"85"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -844,7 +844,7 @@
 			"brighttext"	"0"
 			"Command"		"resume_game"
 			"proportionaltoparent"	"1"
-			"labeltext"		"#MMenu_ResumeGame"
+			"labeltext"		"Resume"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
@@ -888,8 +888,8 @@
 			"fieldName"		"FindAGameButton"
 			"xpos"			"rs1-31"
 			"ypos"			"0"
-			"zpos"			"100"
-			"wide"			"115"
+			"zpos"			"80"
+			"wide"			"60"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -902,7 +902,7 @@
 			"brighttext"	"0"
 			"Command"		"find_game"
 			"proportionaltoparent"	"1"
-			"labeltext"		"#MMenu_FindAGame"
+			"labeltext"		"Play"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
@@ -910,17 +910,6 @@
 			"textinsety"	"5"
 			"textinsetx"	"25"
 			"use_proportional_insets"	"1"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"armedBgColor_override"		"DeniGreen"
-			"defaultBgColor_override"	"DeniDarkGreen"
-
-			"defaultFgColor_override" "DeniWhite"
-			"armedFgColor_override" "DeniWhite"
-			"image_drawcolor"	"DeniWhite"
-			"image_armedcolor"	"DeniWhite"
 
 			"SubImage"
 			{
@@ -936,7 +925,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"glyph_multiplayer"
-				"drawcolor_override" "DeniWhite"
+				
 			}
 		}
 	}
